@@ -19,7 +19,7 @@ public class Work {
                 try{
                     int n = Integer.parseInt(numStr[i][j]);
                 }catch(NumberFormatException e){
-                    throw new MyArrayDataException();
+                    throw new MyArrayDataException();//
                 }
             }
         }
